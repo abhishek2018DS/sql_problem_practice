@@ -194,7 +194,8 @@ emp_id | emp_name | job_name  | manager_id | hire_date  | salary  | commission |
 
 SELECT *
 FROM employees
-WHERE commission>salary;
+WHERE (1.25*salary) > 3000;
+
 
 
 
